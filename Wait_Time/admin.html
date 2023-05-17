@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+		<link rel="icon" type="image/png" href="images/icons/favosu.ico" />
+		<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css" />
+		<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css" />
+		<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css" />
+		<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css" />
+		<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css" />
+		<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css" />
+		<link rel="stylesheet" type="text/css" href="css/util.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+
+		<style>
+			.grid-container {
+				display: grid;
+				grid-template: 300px / auto auto auto;
+				grid-gap: 10px;
+				background-color: #ebeeef;
+				padding: 10px;
+			}
+			.grid-container2 {
+				display: grid;
+				grid-template: 140px / auto auto auto;
+				grid-gap: 10px;
+				background-color: #ebeeef;
+				padding: 10px;
+			}
+			.grid-container > div {
+				background-color: rgba(255, 255, 255, 0.8);
+				text-align: center;
+				padding: 20px 0;
+				font-size: 30px;
+			}
+			.grid-container2 > div {
+				background-color: #ffffffcc;
+				text-align: center;
+				padding: 20px 0;
+				font-size: 30px;
+			}
+		</style>
+	</head>
+	<body>
+		<title>The Ohio State Universty James - Wait Time - Backend</title>
+		<div class="topbar">Topbar</div>
+		<div class="sidebar">
+			<img src="https://innovativenerds.com/WaitTime/images/bg-02.jpg" height="105" width="230" /> <br /><br />
+			<a href="admin.html"><i class="fa fa-fw fa-home"></i> Home</a>
+			<a href="add_patient.html"><i class="fa fa-fw fa-user"></i> Add Patient</a>
+			<a href="reports.html"><i class="fa fa-fw fa-database"></i> Reports</a>
+			<a href="live.html"><i class="fa fa-fw fa-tv"></i> Live View</a>
+			<a href="settings.html"><i class="fa fa-fw fa-sliders"></i> Settings</a>
+		</div>
+
+		<div class="container-fluid">
+			<div class="jumbotron">
+				<center><h1>WaitTime DashBoard</h1></center>
+				<hr />
+				<div class="container-main100">
+					<div class="main">
+						<div class="grid-container">
+							<div class="item1">
+								TOTAL PATIENTS<br />16<br /><br /><image src="images/block_o_trd.png" height="85"></image>
+							</div>
+							<div class="item2">
+								WAITING<br />3<br /><br /><i class="fa fa-fw fa-hourglass-end" style="font-size: 1.25em"></i>
+							</div>
+							<div class="item3">
+								SERVICING<br />
+								13<br /><br /><i class="fa fa-fw fa-stethoscope" style="font-size: 1.25em"></i>
+							</div>
+							<div class="item4">2 no shows</div>
+							<div class="item5">---</div>
+							<div class="item6">---</div>
+						</div>
+						<br /><br />
+						<div class="grid-container2">
+							<div class="item1">AVG. WAIT TIME<br />16min</div>
+							<div class="item2">
+								DAILY AVG.<br />
+								18min
+							</div>
+							<div class="item3">
+								WEEKLY AVG.<br />
+								36min
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-lg-4" style="background-color: #ffffffc7; font-size: 30px; grid-gap: 10px; padding: 10px">
+								AVG. WAIT TIME<br />16min
+							</div>
+							<div class="col-lg-4" style="background-color: #ffffffc7; font-size: 30px; grid-gap: 10px; padding: 10px">
+								DAILY AVG.<br />
+								18min
+							</div>
+							<div class="col-lg-4" style="background-color: #ffffffc7; font-size: 30px">
+								WEEKLY AVG.<br />
+								36min
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<br />
+				<hr />
+				<br /><br />
+				<p>Waitime dashboard data would need to be filled in boxes</p>
+				<p>Not all grid boxes are needed and is only used as filler until we start to grab data</p>
+				<p>
+					Ideally, we would add things like How many customers waiting, how many doctors are busy vs how many are not.
+					Wait Times etc.
+				</p>
+			</div>
+		</div>
+
+		<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+		<script src="vendor/animsition/js/animsition.min.js"></script>
+		<script src="vendor/bootstrap/js/popper.js"></script>
+		<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+		<script src="vendor/select2/select2.min.js"></script>
+		<script src="vendor/daterangepicker/moment.min.js"></script>
+		<script src="vendor/daterangepicker/daterangepicker.js"></script>
+		<script src="vendor/countdowntime/countdowntime.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
